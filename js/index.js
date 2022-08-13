@@ -1,3 +1,4 @@
+import '../css/style.css';
 let charArr = [];
 for (let i = 1; i < 11; i++) {
     let char =  fetch(`https://rickandmortyapi.com/api/character/${i}`).then(responce => responce.json());
