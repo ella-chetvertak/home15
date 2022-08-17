@@ -15,6 +15,9 @@ module.exports = {
             filename: 'index.html', 
         }),
         new CleanWebpackPlugin(),
+        new MiniCssExtractPlugin({
+            filename: './styles/main.css'
+        })
     ],
     module: {
         rules: [
